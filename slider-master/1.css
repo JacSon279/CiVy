@@ -1,0 +1,25 @@
+body{background:#202133;}
+.container{
+  margin:50px auto;
+  width:500px;
+  height:300px;
+  overflow:hidden;
+  position:absolute;
+}
+
+.photo{
+  position:absolute;
+  -webkit-animation:round 16s infinite;
+  animation:round 16s infinite;
+  opacity:0;
+}
+
+@-webkit-keyframes round{   
+  25%{opacity:1;}
+  40%{opacity:0;}
+} 
+
+img:nth-child(4){-webkit-animation-delay:0s;}
+img:nth-child(3){-webkit-animation-delay:4s;}
+img:nth-child(2){-webkit-animation-delay:8s;}
+img:nth-child(1){-webkit-animation-delay:12s;}
