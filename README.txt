@@ -1,7 +1,7 @@
 ####################################################################################
-#####									  #####
-#####			 CivY   C.V. Management System				  #####
-#####								 	  #####
+#####									       #####
+#####			 CivY   C.V. Management System		   	       #####
+#####								 	       #####
 ####################################################################################
 The entire CMS consists of 7 screens ( screen1, screen2, ... )
 To customize CivY  just replace the files specified after the ==> mark.
